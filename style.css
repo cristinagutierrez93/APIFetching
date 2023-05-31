@@ -1,0 +1,28 @@
+*{
+    background-color: #AB81CD;
+}
+
+h2{
+    text-align: center;
+    font-family: arial;
+}
+
+#products-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#posts-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p{
+    font-size: 1.5em;
+}
